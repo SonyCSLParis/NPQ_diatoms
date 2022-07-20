@@ -25,3 +25,4 @@ def NPQ_good(I, ke_params, kd_params, LHCX):
    kds = kd_params["A1"] + kd_params["A2"]*I**kd_params["n"]/(kd_params["I50NPQ"]**kd_params["n"]+I**kd_params["n"])
    DESs = kds/(kds+kes)
    return LHCX*DESs
+#test
